@@ -54,42 +54,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="Data\ExampleBindingCollection.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Data\ExampleBindingDirection.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Data\ExampleBindingEnum.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Data\ExampleBindingObjectDataProvider.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Data\ExampleBindingValidationRule.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Data\ExampleDataContentBinding.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Data\ExampleElementProperty.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Data\ExampleSimpleBinding.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Data\ExampleUpdateSourceTime.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -98,36 +62,6 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Data\AgeRangeRule.cs" />
-    <Compile Include="Data\ExampleBindingCollection.xaml.cs">
-      <DependentUpon>ExampleBindingCollection.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Data\ExampleBindingDirection.xaml.cs">
-      <DependentUpon>ExampleBindingDirection.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Data\ExampleBindingEnum.xaml.cs">
-      <DependentUpon>ExampleBindingEnum.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Data\ExampleBindingObjectDataProvider.xaml.cs">
-      <DependentUpon>ExampleBindingObjectDataProvider.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Data\ExampleBindingValidationRule.xaml.cs">
-      <DependentUpon>ExampleBindingValidationRule.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Data\ExampleDataContentBinding.xaml.cs">
-      <DependentUpon>ExampleDataContentBinding.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Data\ExampleElementProperty.xaml.cs">
-      <DependentUpon>ExampleElementProperty.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Data\ExampleSimpleBinding.xaml.cs">
-      <DependentUpon>ExampleSimpleBinding.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Data\ExampleUpdateSourceTime.xaml.cs">
-      <DependentUpon>ExampleUpdateSourceTime.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Data\MyDataSource.cs" />
-    <Compile Include="Data\Person.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
