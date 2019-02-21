@@ -7,6 +7,28 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+
+        <Ellipse HorizontalAlignment="Left" Height="115" Margin="160,120,0,0" Stroke="Black" VerticalAlignment="Top" Width="115">
+            <Ellipse.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <LinearGradientBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                            <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                            <RotateTransform Angle="117.897" CenterY="0.5" CenterX="0.5"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </LinearGradientBrush.RelativeTransform>
+                    <GradientStop Color="{DynamicResource {x:Static SystemColors.ControlColorKey}}" Offset="0"/>
+                    <GradientStop Color="{DynamicResource {x:Static SystemColors.ActiveCaptionTextColorKey}}"/>
+                    <GradientStop/>
+                    <GradientStop/>
+                    <GradientStop/>
+                    <GradientStop/>
+                    <GradientStop Color="{DynamicResource {x:Static SystemColors.InfoColorKey}}" Offset="1"/>
+                </LinearGradientBrush>
+            </Ellipse.Fill>
+        </Ellipse>
+
     </Grid>
 </Window>
