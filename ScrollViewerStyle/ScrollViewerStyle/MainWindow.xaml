@@ -145,23 +145,196 @@
                 </Trigger>
             </Style.Triggers>
         </Style>
-
-
-        <LinearGradientBrush x:Key="SliderBackground"  StartPoint="0,0" EndPoint="0,1">
-            <GradientStop Offset="0" Color="DarkGray"/>
-            <GradientStop Offset="0.5" Color="DarkGray"/>
-            <GradientStop Offset="1" Color="DarkGray"/>
-        </LinearGradientBrush>
-        <LinearGradientBrush x:Key="SliderThumb"  StartPoint="0,0" EndPoint="0,1">
-            <GradientStop Offset="0" Color="#FFD9D3E8"/>
-        </LinearGradientBrush>
-        <LinearGradientBrush x:Key="SliderText"  StartPoint="0,0" EndPoint="0,1">
-            <GradientStop Offset="0" Color="#7cce45"/>
-            <GradientStop Offset="1" Color="#4ea017"/>
-        </LinearGradientBrush>
-
     </Window.Resources>
     <Grid Background="Gray">
-        <ScrollViewer Height="245" Margin="0" Width="535" Template="{DynamicResource MyScrollViewer}"/>
+        <ScrollViewer Height="245" Margin="0" Width="535" Template="{DynamicResource MyScrollViewer}">
+            <TextBox FontSize="18" TextWrapping="WrapWithOverflow">
+                <TextBox.Text>
+                    asdfasdfas
+                    sadgasdg  asdf  asdfasdfas
+                    sadgasdg
+                    asdgas
+                    gasg
+                    asdgasdgasdga  a  asdfasdfas
+                    sadgasdg
+                    asdgas
+                    gasg
+                    asdgasdgasdga
+                    asdgasdgas
+                    
+                    asdgasgd  asdfasdfas
+                    sadgasdg
+                    asdgas
+                    gasg
+                    asdgasdgasdga
+                    asdgasdgas
+                    
+                    asdgasgd  asdfasdfas
+                    sadgasdg
+                    asdgas
+                    gasg
+                    asdgasdgasdga
+                    asdgasdgas
+                    
+                    asdgasgd  asdfasdfas
+                    sadgasdg
+                    asdgas
+                    gasg
+                    asdgasdgasdga
+                    asdgasdgas
+                    
+                    asdgasgd  asdfasdfas
+                    sadgasdg
+                    asdgas
+                    gasg
+                    asdgasdgasdga
+                    asdgasdgas
+                    
+                    asdgasgd  asdfasdfas
+                    sadgasdg
+                    asdgas
+                    gasg
+                    asdgasdgasdga
+                    asdgasdgas
+                    
+                    asdgasgd  asdfasdfas
+                    sadgasdg
+                    asdgas
+                    gasg
+                    asdgasdgasdga
+                    asdgasdgas  asdfasdfas
+                    sadgasdg
+                    asdgas
+                    gasg
+                    asdgasdgasdga
+                    asdgasdgas
+                    
+                    asdgasgd  asdfasdfas
+                    sadgasdg
+                    asdgas
+                    gasg
+                    asdgasdgasdga  asdfasdfas
+                    sadgasdg
+                    asdgas
+                    gasg  asdfasdfas
+                    sadgasdg
+                    asdgas  asdfasdfas  asdfasdfas  asdfasdfas  asdfasdfas  asdfasdfas
+                    sadgasdg
+                    asdgas
+                    gasg
+                    asdgasdgasdga
+                    asdgasdgas
+                    
+                    asdgasgd
+                    sadgasdg
+                    asdgas
+                    gasg
+                    asdgasdgasdga
+                    asdgasdgas
+                    
+                    asdgasgd
+                    sadgasdg
+                    asdgas
+                    gasg
+                    asdgasdgasdga
+                    asdgasdgas
+                    
+                    asdgasgd
+                    sadgasdg  asdfasdfas
+                    sadgasdg
+                    asdgas
+                    gasg
+                    asdgasdgasdga
+                    asdgasdgas
+                    
+                    asdgasgd
+                    asdgas
+                    gasg
+                    asdgasdgasdga
+                    asdgasdgas
+                    
+                    asdgasgd
+                    sadgasdg
+                    asdgas
+                    gasg
+                    asdgasdgasdga
+                    asdgasdgas
+                    
+                    asdgasgd
+                    gasg  asdfasdfas
+                    sadgasdg
+                    asdgas
+                    gasg
+                    asdgasdgasdga
+                    asdgasdgas
+                    
+                    asdgasgd
+                    asdgasdgasdga
+                    asdgasdgas
+                    
+                    asdgasgd  asdfasdfas
+                    sadgasdg
+                    asdgas
+                    gasg
+                    asdgasdgasdga
+                    asdgasdgas
+                    
+                    asdgasgd
+                    asdgasdgasdga
+                    asdgasdgas
+                    
+                    asdgasgd  asdfasdfas
+                    sadgasdg
+                    asdgas
+                    gasg
+                    asdgasdgasdga
+                    asdgasdgas
+                    
+                    asdgasgd
+                    asdgasdgas
+                    
+                    asdgasgd  asdfasdfas
+                    sadgasdg
+                    asdgas
+                    gasg
+                    asdgasdgasdga
+                    asdgasdgas
+                    
+                    asdgasgd
+                    
+                    asdgasgd  asdfasdfas
+                    sadgasdg
+                    asdgas
+                    gasg
+                    asdgasdgasdga
+                    asdgasdgas
+                    
+                    asdgasgdsdfasdfas
+                    sadgasdg
+                    asdgas
+                    gasg
+                    asdgasdgasdga
+                    asdgasdgas
+                    
+                    asdgasgd
+                    asdgasdgas
+                    
+                    asdgasgdasdfas
+                    sadgasdg
+                    asdgas
+                    gasg
+                    asdgasdgasdga
+                    asdgasdgas
+                    
+                    asdgasgd
+                    asdgas
+                    gasg
+                    asdgasdgasdga
+                    asdgasdgas
+                    
+                    asdgasgd
+                </TextBox.Text>
+            </TextBox>
+        </ScrollViewer>
     </Grid>
 </Window>
